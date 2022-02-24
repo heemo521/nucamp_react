@@ -37,7 +37,7 @@ const RenderComments = (comments) => {
     return <div />;
 };
 
-const CampsiteInfo = () => {
+const CampsiteInfo = (props) => {
     if (props.campsite) {
         return (
             <div className="container">
