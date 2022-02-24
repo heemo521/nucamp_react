@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-const renderCampsite = (campsite) => {
+const RenderCampsite = (campsite) => {
     return (
         <div className="col-md-5 m-1">
             <Card>
@@ -14,7 +14,7 @@ const renderCampsite = (campsite) => {
         </div>
     );
 };
-const renderComments = (comments) => {
+const RenderComments = (comments) => {
     if (comments) {
         return (
             <div className="col-md-5 m-1">
